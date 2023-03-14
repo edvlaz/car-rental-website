@@ -91,6 +91,12 @@ main img{
         font-size: 35px;
         padding-left: 30px;
     }
+h4{
+
+    color: #00004d;
+    font-family:'Tilt Warp', cursive ;
+    font-size: 33px;
+}
 
     /*incia modo responsivo*/
 
@@ -253,6 +259,12 @@ main img{
     border-radius: 50%;
 }
 .icono-contacto h3{
+    padding-left: 50px;
+    color: #00004d;
+    font-family:'Tilt Warp', cursive ;
+    font-size: 33px;
+}
+    h4{
     padding-left: 50px;
     color: #00004d;
     font-family:'Tilt Warp', cursive ;

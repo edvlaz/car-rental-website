@@ -1,4 +1,54 @@
-
+.popup-img{
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+}
+.modal{
+    position: fixed;
+    top: 20px;
+    text-align: center;
+    left: 30%;
+    z-index: 1;
+    border-radius: 5%;
+    }
+.show-button{
+    font-size: 17px;
+    margin-top: 5px;
+    background-color: #000099 ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-family:'Open Sans', sans-serif ;
+    transition: opacity;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
+.promo-button{
+    text-align: center;
+}
+.closeModal{
+    margin-top: 5px;
+    background-color: #4d94ff ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+    color: white;
+    font-family:'Open Sans', sans-serif ;
+    transition: opacity;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
 
 .title-logo-container{
     background: #0080ff;
@@ -91,17 +141,68 @@ main img{
         font-size: 35px;
         padding-left: 30px;
     }
-h4{
+    h4{
 
     color: #00004d;
     font-family:'Tilt Warp', cursive ;
     font-size: 33px;
-}
+    }
 
     /*incia modo responsivo*/
 
 @media only screen and (min-width: 700px){
 /*........design for media responsive desktop viewort*/
+
+    .modal{
+    position: fixed;
+    top: 20px;
+    text-align: center;
+    left: 30%;
+    z-index: 1;
+    border-radius: 10%;
+}
+.closeModal{
+    margin-top: 5px;
+    background-color: #4d94ff ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+    color: white;
+    font-family:'Open Sans', sans-serif ;
+    transition: opacity;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+.popup-img{
+    width: auto;
+    height: 100%;
+    border-radius: 10%;
+}
+.promo-button{
+    text-align: center;
+}
+.show-button{
+    font-size: 17px;
+    margin-top: 5px;
+    background-color: #000099 ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-family:'Open Sans', sans-serif ;
+    transition: opacity;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
 .title-logo-container{
     display: flex;
     background: #0080ff;
@@ -264,7 +365,7 @@ main img{
     font-family:'Tilt Warp', cursive ;
     font-size: 33px;
 }
-    h4{
+h4{
     padding-left: 50px;
     color: #00004d;
     font-family:'Tilt Warp', cursive ;
